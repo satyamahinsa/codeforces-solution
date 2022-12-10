@@ -12,8 +12,8 @@ int main() {
     cin >> x;
 
     int digits = log10(x) + 1;
-    int result = 10 * (x % 10 - 1);
     int temp = 1;
+    int result = 10 * (x % 10 - 1);
     for(int i = 0; i < digits; i++) {
       result += temp;
       temp++;
